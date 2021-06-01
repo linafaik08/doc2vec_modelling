@@ -11,7 +11,7 @@ from gensim.models.doc2vec import Doc2Vec
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import accuracy_score
 
-## update !!
+
 
 def build_d2v_model(data, vector_size, alpha, max_iterations, epochs,
                     min_count=1, window=10, dm=1, pretrained_emb=None):
